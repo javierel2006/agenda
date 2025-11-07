@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HojaVidaApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e53bf5eedd9f3a67f4d1f559d3647151ddaab86e")]
 [assembly: System.Reflection.AssemblyProductAttribute("HojaVidaApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HojaVidaApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
