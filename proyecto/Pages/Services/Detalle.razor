@@ -1,0 +1,32 @@
+@page "/detalle/{id:int}"
+@using HojaVidaApp.Models
+@inject HojaVidaApp.Services.CandidatoService CandidatoService
+@code {
+[Parameter]
+public int id { get; set; }
+
+
+private Candidato? candidato;
+
+
+protected override void OnInitialized()
+{
+candidato = CandidatoService.GetById(id);
+}
+}
+
+
+<h1>Detalle candidato</h1>
+
+
+@if (candidato == null)
+{
+<p>No se encontró el candidato.</p>
+}
+else
+{
+<p><strong>Nombre:</strong> @candidato.Nombre</p>
+<p><strong>Profesión:</strong> @candidato.Profesion</p>
+<p><strong>Contacto:</strong> @candidato.Email — @candidato.Telefono</p>
+<p><strong>Resumen:</strong> @candidato.Resumen</p>
+}

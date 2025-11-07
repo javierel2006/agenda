@@ -1,0 +1,51 @@
+@page "/agregar"
+@using HojaVidaApp.Models
+@inject HojaVidaApp.Services.CandidatoService CandidatoService
+@inject NavigationManager Nav
+
+
+<h1>Agregar candidato</h1>
+
+
+<EditForm Model="nuevo" OnValidSubmit="Guardar">
+<DataAnnotationsValidator />
+<ValidationSummary />
+
+
+<div>
+<label>Nombre:</label>
+<InputText @bind-Value="nuevo.Nombre" />
+</div>
+<div>
+<label>Profesión:</label>
+<InputText @bind-Value="nuevo.Profesion" />
+</div>
+<div>
+<label>Email:</label>
+<InputText @bind-Value="nuevo.Email" />
+</div>
+<div>
+<label>Teléfono:</label>
+<InputText @bind-Value="nuevo.Telefono" />
+</div>
+<div>
+<label>Resumen:</label>
+<InputTextArea @bind-Value="nuevo.Resumen" />
+</div>
+
+
+<button type="submit">Guardar</button>
+</EditForm>
+
+
+@code {
+private Candidato nuevo = new Candidato();
+
+
+private void Guardar()
+{
+CandidatoService.Add(nuevo);
+// Volver a la lista
+Nav.NavigateTo("/");
+}
+}

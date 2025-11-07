@@ -52,14 +52,46 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/104-6/HojaVidaApp/proyecto/App.razor]
+build_metadata.AdditionalFiles.TargetPath = cHJveWVjdG9cQXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/104-6/HojaVidaApp/proyecto/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = cHJveWVjdG9cUGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/104-6/HojaVidaApp/proyecto/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = cHJveWVjdG9cUGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/104-6/HojaVidaApp/proyecto/Pages/Services/Agregar.razor]
+build_metadata.AdditionalFiles.TargetPath = cHJveWVjdG9cUGFnZXNcU2VydmljZXNcQWdyZWdhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/104-6/HojaVidaApp/proyecto/Pages/Services/Detalle.razor]
+build_metadata.AdditionalFiles.TargetPath = cHJveWVjdG9cUGFnZXNcU2VydmljZXNcRGV0YWxsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/104-6/HojaVidaApp/proyecto/Pages/Services/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = cHJveWVjdG9cUGFnZXNcU2VydmljZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/104-6/HojaVidaApp/proyecto/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = cHJveWVjdG9cUGFnZXNcV2VhdGhlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/104-6/HojaVidaApp/proyecto/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = cHJveWVjdG9cX0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/104-6/HojaVidaApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/104-6/HojaVidaApp/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-fe8csn9xah
+[C:/Users/104-6/HojaVidaApp/proyecto/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = cHJveWVjdG9cTGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-snsw7rw7ed
 
-[C:/Users/104-6/HojaVidaApp/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-8hpg3kl4f2
+[C:/Users/104-6/HojaVidaApp/proyecto/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = cHJveWVjdG9cTGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-dww1jcmyq9
