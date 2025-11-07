@@ -1,0 +1,54 @@
+@page "/"
+@using HojaVidaApp.Models
+@inject HojaVidaApp.Services.CandidatoService CandidatoService
+
+
+<h1>Lista de Candidatos</h1>
+
+
+<p>
+<a href="/agregar">Agregar nuevo candidato</a>
+</p>
+
+
+@if (candidatos == null)
+{
+<p>Cargando...</p>
+}
+else
+{
+<table class="table">
+<thead>
+<tr>
+<th>Id</th>
+<th>Nombre</th>
+<th>Profesión</th>
+<th>Contacto</th>
+<th>Acciones</th>
+</tr>
+</thead>
+<tbody>
+@foreach (var c in candidatos)
+{
+<tr>
+<td>@c.Id</td>
+<td>@c.Nombre</td>
+<td>@c.Profesion</td>
+<td>@c.Email<br/>@c.Telefono</td>
+<td><a href="/detalle/@c.Id">Ver</a></td>
+</tr>
+}
+</tbody>
+</table>
+}
+
+
+@code {
+private List<Candidato>? candidatos;
+
+
+protected override void OnInitialized()
+{
+candidatos = CandidatoService.GetAll();
+}
+}
